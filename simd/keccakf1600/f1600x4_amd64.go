@@ -1,3 +1,6 @@
+//go:build arm64 && !gccgo
+// +build arm64,gccgo
+
 package keccakf1600
 
 import "github.com/cloudflare/circl/internal/sha3"

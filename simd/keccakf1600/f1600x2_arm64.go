@@ -1,5 +1,5 @@
-//go:build arm64 && go1.16
-// +build arm64,go1.16
+//go:build arm64 && go1.16 && !gccgo
+// +build arm64,go1.16,!gccgo
 
 package keccakf1600
 
